@@ -79,7 +79,7 @@ function App() {
 
       <Switch>
 
-          <Route exact path="https://atulashishxalxo.github.io/TodoList-React/" render={() =>{
+          <Route exact path="TodoList-React/" render={() =>{
             return(
               <>
               <AddTodo addTodo={addTodo}/>
@@ -89,7 +89,7 @@ function App() {
           }}>
           </Route>
           
-          <Route exact path="https://atulashishxalxo.github.io/TodoList-React/about">
+          <Route exact path="TodoList-React/about">
             <About />
           </Route>
           
